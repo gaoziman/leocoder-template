@@ -1,5 +1,7 @@
 package org.leocoder.template.controller;
 
+import org.leocoder.template.common.Result;
+import org.leocoder.template.common.ResultUtils;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -13,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
     @GetMapping("/hello")
-    public String hello() {
-        return "hello";
+    public Result<String> hello() {
+        return ResultUtils.success("Hello World!");
     }
 }
