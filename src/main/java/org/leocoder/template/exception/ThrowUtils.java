@@ -3,7 +3,7 @@ package org.leocoder.template.exception;
 /**
  * @author : 程序员Leo
  * @version 1.0
- * @date2025-02-10 11:55
+ * @date 2025-02-10 11:55
  * @description : 断言异常工具类
  */
 public class ThrowUtils {
