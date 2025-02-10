@@ -1,4 +1,4 @@
-package org.leocoder.utils;
+package org.leocoder.template.utils;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 

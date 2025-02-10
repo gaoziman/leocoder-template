@@ -1,4 +1,4 @@
-package org.leocoder.utils;
+package org.leocoder.template.utils;
 
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
