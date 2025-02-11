@@ -2,6 +2,7 @@ package org.leocoder.template.domain.pojo;
 
 import com.baomidou.mybatisplus.annotation.*;
 
+import java.io.Serializable;
 import java.util.Date;
 
 import lombok.AllArgsConstructor;
@@ -20,7 +21,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @TableName(value = "`user`")
-public class User {
+public class User  extends BaseEntity implements Serializable {
     /**
      * id
      */

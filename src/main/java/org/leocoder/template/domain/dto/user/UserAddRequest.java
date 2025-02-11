@@ -1,4 +1,4 @@
-package org.leocoder.template.domain.dto;
+package org.leocoder.template.domain.dto.user;
 
 import lombok.Data;
 
@@ -7,7 +7,7 @@ import java.io.Serializable;
 /**
  * @author : 程序员Leo
  * @version 1.0
- * @date 2025-02-10 22:14
+ * @date 2025-02-10 22:27
  * @description : 用户添加请求参数
  */
 @Data
